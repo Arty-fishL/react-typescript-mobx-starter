@@ -65,5 +65,7 @@
 
 ## See also
 
-- [React Webpack Babel Starter](https://github.com/vikpe/react-webpack-babel-starter)
-- [Isomorphic Webapp Starter](https://github.com/vikpe/isomorphic-webapp-starter)
+- [React Webpack Typescript Starter (_vikpe_)](https://github.com/vikpe/react-webpack-typescript-starter)
+- [React MobX Typescript Boilerplate (_rokoroku_)](https://github.com/rokoroku/react-mobx-typescript-boilerplate)
+- [React Webpack Babel Starter (_vikpe_)](https://github.com/vikpe/react-webpack-babel-starter)
+- [Isomorphic Webapp Starter (_vikpe_)](https://github.com/vikpe/isomorphic-webapp-starter)
