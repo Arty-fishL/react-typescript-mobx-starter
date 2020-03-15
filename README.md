@@ -19,12 +19,15 @@
 - [SASS](http://sass-lang.com/) using [sass-loader](https://github.com/webpack-contrib/sass-loader) (8.x)
 - [Jest](https://facebook.github.io/jest/) (25.x) - Testing framework for React applications
 - [Enzyme](https://enzymejs.github.io/enzyme/) (3.x) - Testing framework for React applications
-- [jest-extended](https://github.com/jest-community/jest-extended) (0.11.x) - TODO
-- [Prettier](https://prettier.io/) (1.x) - TODO
+- [jest-extended](https://github.com/jest-community/jest-extended) (0.11.x) - Additional Jest matchers
+- [Prettier](https://prettier.io/) (1.x) - Opinionated code formatter
+- [MomentJS](https://momentjs.com/) (2.x) - Parse, validate, manipulate, and display dates and times
+- [Lodash](https://lodash.com/) (4.x) - Library for working with arrays, numbers, objects, strings, etc.
+- [js-logger](https://github.com/jonnyreeves/js-logger) (1.x) - Lightweight, unobtrusive, configurable logger
 - Production build script
 - Image loading/minification using [Image Webpack Loader](https://github.com/tcoopman/image-webpack-loader)
 - Typescript compiling using [Awesome Typescript Loader](https://github.com/s-panferov/awesome-typescript-loader) (5.x)
-- Code quality (linting) for Typescript.
+- Code quality (linting) for Typescript using [TSLint](https://palantir.github.io/tslint/) (6.x
 
 ## Installation
 
@@ -62,6 +65,13 @@
 | `yarn start`      | (alias of `yarn start:dev`)                                                   |
 
 **Note**: replace `yarn` with `npm run` in `package.json` if you use npm.
+
+## Issues
+
+- tslint-config-security@1.16.0 has incorrect peer dependency tslint@^5.8.0.
+- tslint-config-security@1.16.0 has unmet peer dependency tslib@1.9.2.
+- tslint-eslint-rules@5.4.0 has incorrect peer dependency tslint@^5.0.0
+- tslint-microsoft-contrib@6.2.0 has incorrect peer dependency tslint@^5.1.0.
 
 ## See also
 
